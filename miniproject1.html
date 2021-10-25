@@ -6,6 +6,10 @@
     <style>
       html {
         background: #EEE;
+        box-sizing: border-box;
+      }
+      header {
+        display: flex;
       }
       h3 {
         color: #8EA936;
@@ -18,7 +22,7 @@
         width: 50%;
         padding: 2%;
       }
-      #header {
+      #banner {
         text-align: center;
       }
       #name {
@@ -35,11 +39,15 @@
   </head>
   <body>
     <div id="container">
-      <div id="header">
+      <div id="banner">
         <header>
-          <img style="width:200px" src="https://user-images.githubusercontent.com/92003328/138625291-8d1f7caa-a08c-4b15-99fd-aeaa75a480fa.png" />
-          <h1 id="name" class="header">Louise Belcher</h1>
-          <h2 class="header">Resume</h2>
+          <section id="image">
+            <img style="width:200px" src="https://user-images.githubusercontent.com/92003328/138625291-8d1f7caa-a08c-4b15-99fd-aeaa75a480fa.png" />
+          </section>
+          <section>
+            <h1 id="name" class="header">Louise Belcher</h1>
+            <h2 class="header">Resume</h2>
+          </section>
         </header>
       </div>
       <div id="about" class="content">
